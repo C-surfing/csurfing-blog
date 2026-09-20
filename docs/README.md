@@ -10,6 +10,7 @@
 | [`editor/`](editor/) | 文章编辑器(`editor.html` + `editor.js` + `editor.css`) |
 | [`image/`](image/) | 文档配图 |
 | [`xhs-blog-intro/`](xhs-blog-intro/) | 小红书博客推广图素材(归档) |
+| [`assets/`](assets/) | 社交预览卡源文件([`social-preview.html`](assets/social-preview.html))与成品 1280×640 PNG(仓库 Social Preview 用) |
 
 ## 📦 上游主题参考(Mizuki / Fuwari)
 

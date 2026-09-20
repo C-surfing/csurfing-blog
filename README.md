@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🚀 Csurfing's Agent Lab
+![Csurfing's Agent Lab — csurfing.xyz 个人博客 · 知识库 · Agent 学习笔记](docs/assets/social-preview.png)
 
 **csurfing.xyz — 个人博客 · 知识库 · AI Agent 学习笔记**
 
