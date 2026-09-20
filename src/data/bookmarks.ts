@@ -382,7 +382,10 @@ export function getBookmarksByCategory(): Record<string, BookmarkItem[]> {
 	const groups: Record<string, BookmarkItem[]> = {};
 	for (const item of bookmarksData) {
 		const cat = item.category || "其他";
-		(groups[cat] ??= []).push(item);
+		if (!groups[cat]) {
+			groups[cat] = [];
+		}
+		groups[cat].push(item);
 	}
 	return groups;
 }
