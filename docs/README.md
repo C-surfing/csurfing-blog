@@ -1,110 +1,30 @@
-# Mizuki 文档索引
+# 文档索引
 
-欢迎查阅 Mizuki 的详细文档！
+`docs/` 里放着两类东西:**本站自建的规范与素材**,以及**上游主题的参考文档**。建议按下面的分区查阅,不要把上游参考文档当成本站的实际配置。
 
-## 📚 文档列表
+## 🧩 本站自建
 
-### 核心文档
+| 目录 | 内容 |
+| :--- | :--- |
+| [`rule/`](rule/) | 组件架构 / 组件拆分 / 文件组织 / CSS 风格 / Atom 组件 / 侧栏组件 / 图标使用 —— 7 篇自建规范 |
+| [`editor/`](editor/) | 文章编辑器(`editor.html` + `editor.js` + `editor.css`) |
+| [`image/`](image/) | 文档配图 |
+| [`xhs-blog-intro/`](xhs-blog-intro/) | 小红书博客推广图素材(归档) |
 
-- **[../README.zh.md](../README.zh.md)** - 项目主文档 (简体中文)
-  - 快速开始
-  - 功能特性
-  - 基础配置
-  - 常见问题
+## 📦 上游主题参考(Mizuki / Fuwari)
 
-### 多语言文档
+> ⚠️ 以下文档来自上游主题,描述的是**主题的通用能力**,不代表本站当前配置。本站实际部署为 **Cloudflare Pages + GitHub Actions**(见 [`.github/workflows/`](../.github/workflows/))。
 
-- **[../README.md](../README.md)** - English
-- **[../README.ja.md](../README.ja.md)** - 日本語  
-- **[../README.tw.md](../README.tw.md)** - 繁體中文
+| 文档 | 说明 |
+| :--- | :--- |
+| [CONTENT_SEPARATION.md](CONTENT_SEPARATION.md) | 内容分离完整指南(代码仓 / 内容仓拆分) |
+| [CONTENT_REPOSITORY.md](CONTENT_REPOSITORY.md) | 内容仓库结构说明 |
+| [MIGRATION_GUIDE.md](MIGRATION_GUIDE.md) | 单仓库 → 内容分离迁移 |
+| [AUTO_BUILD_TRIGGER.md](AUTO_BUILD_TRIGGER.md) | 内容仓更新触发构建 |
+| [DEPLOYMENT.md](DEPLOYMENT.md) | 多平台部署配置说明 |
+| [PERFORMANCE_MONITORING.md](PERFORMANCE_MONITORING.md) | 性能监控工具配置 |
 
-### 内容分离相关
+## 🔗 其他
 
-- **[CONTENT_SEPARATION.md](./CONTENT_SEPARATION.md)** - 内容分离完整指南 ⭐
-  - ENABLE_CONTENT_SYNC 控制开关
-  - 环境变量配置详解
-  - 私有仓库配置方法
-  - 模式切换指南
-  - 故障排查
-
-- **[CONTENT_REPOSITORY.md](./CONTENT_REPOSITORY.md)** - 内容仓库结构指南
-  - 推荐的目录结构
-  - 文件组织方式
-  - 内容编写规范
-  - 图片管理建议
-
-- **[MIGRATION_GUIDE.md](./MIGRATION_GUIDE.md)** - 内容迁移指南
-  - 从单仓库迁移到分离模式
-  - 详细迁移步骤
-  - 测试验证方法
-
-### 部署相关
-
-- **[DEPLOYMENT.md](./DEPLOYMENT.md)** - 部署完整指南 ⭐
-  - 各平台部署配置 (GitHub Pages / Vercel / Netlify / Cloudflare Pages)
-  - 内容仓库更新自动触发构建
-  - 私有仓库认证
-  - 故障排查
-
-- **[AUTO_BUILD_TRIGGER.md](./AUTO_BUILD_TRIGGER.md)** - 自动构建触发快速参考 🆕
-  - 5 步快速配置，解决内容更新不触发部署的问题
-
-## 🚀 快速查找
-
-### 我是新手，想快速开始
-→ 阅读 [主 README](../README.zh.md)
-
-### 我想部署博客
-→ 阅读 [部署指南](./DEPLOYMENT.md)
-
-### 我想使用内容分离功能
-→ 阅读 [内容分离完整指南](./CONTENT_SEPARATION.md)
-
-### 我想从单仓库迁移到分离模式
-→ 阅读 [内容迁移指南](./MIGRATION_GUIDE.md)
-
-### 我想配置私有内容仓库
-→ 阅读 [内容分离指南 - 私有仓库配置](./CONTENT_SEPARATION.md#-私有仓库配置)
-
-### 我的部署遇到问题
-→ 阅读 [部署指南 - 故障排查](./DEPLOYMENT.md#-故障排查)
-
-### 我遇到了内容同步错误
-→ 阅读 [内容分离指南 - 故障排查](./CONTENT_SEPARATION.md#-故障排查)
-
-### 内容仓库更新后站点没有自动重新部署 🆕
-→ 阅读 [自动构建触发快速参考](./AUTO_BUILD_TRIGGER.md)
-
-## 📖 文档架构
-
-```
-docs/
-├── README.md                    # 本文档 - 索引导航
-├── CONTENT_SEPARATION.md        # 内容分离核心指南
-├── CONTENT_REPOSITORY.md        # 内容仓库结构
-├── MIGRATION_GUIDE.md           # 迁移指南
-├── DEPLOYMENT.md                # 部署完整指南
-├── AUTO_BUILD_TRIGGER.md        # 自动构建触发快速参考
-└── image/                       # 文档图片资源
-```
-
-## 🎯 文档使用建议
-
-### 新用户推荐阅读顺序
-
-1. [主 README](../README.zh.md) - 了解项目基本情况
-2. [部署指南](./DEPLOYMENT.md) - 选择平台并部署
-3. (可选) [内容分离指南](./CONTENT_SEPARATION.md) - 高级功能
-
-### 高级用户推荐
-
-- 直接查阅具体主题的文档
-- 使用快速查找定位问题解决方案
-
-## 🤝 需要帮助？
-
-- 查看 [GitHub Issues](https://github.com/LyraVoid/Mizuki/issues)
-- 阅读相关文档的故障排查章节
-- 运行 `pnpm run check-env` 检查配置
-
-祝你使用愉快！🎉
+- 仓库门面与改造清单:[../README.md](../README.md)
+- 上游署名与许可:[../THIRD_PARTY_NOTICES.md](../THIRD_PARTY_NOTICES.md)
