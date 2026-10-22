@@ -10,7 +10,7 @@ export const commentConfig: CommentConfig = {
 		lang: SITE_LANG,
 	},
 	giscus: {
-		repo: "C-surfing/my-blog",
+		repo: "C-surfing/csurfing-blog",
 		repoId: "R_kgDOTE282A",
 		category: "Announcements",
 		categoryId: "DIC_kwDOTE282M4DBTiD",
