@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" role="img" aria-label="Bias &amp; Utility · 双轴评价">
+<rect width="1200" height="100%" fill="#f4f8fc"/>
+<style>text{font-family:"Microsoft YaHei","Noto Sans CJK SC","PingFang SC",sans-serif}.title{font-size:30px;font-weight:750;fill:#11243a}.sub{font-size:15px;fill:#527087}.h{font-size:21px;font-weight:700;fill:#11243a}.body{font-size:16px;fill:#394e62}.tiny{font-size:13px;fill:#64788c}</style>
+<text x="48" y="53" class="title">Bias &amp; Utility · 双轴评价</text>
+<text x="48" y="82" class="sub">不能只看 NDCG，也不能用长尾推荐变多就断言无偏</text>
+<rect x="75" y="127" width="1050" height="69" rx="16" fill="#fff" stroke="#dce6ee" stroke-width="1.5"/>
+<rect x="75" y="127" width="10" height="69" rx="3" fill="#2563eb" stroke="#2563eb" stroke-width="1.5"/>
+<text x="103" y="156" class="h">推荐效用 Utility</text>
+<text x="520" y="156" class="body">HR@K / NDCG@K；保持与基线可比</text>
+<rect x="75" y="207" width="1050" height="69" rx="16" fill="#fff" stroke="#dce6ee" stroke-width="1.5"/>
+<rect x="75" y="207" width="10" height="69" rx="3" fill="#0f9eac" stroke="#0f9eac" stroke-width="1.5"/>
+<text x="103" y="236" class="h">流行度 Popularity</text>
+<text x="520" y="236" class="body">ARP@K 是描述量；PopREO 需要有效分组正例</text>
+<rect x="75" y="287" width="1050" height="69" rx="16" fill="#fff" stroke="#dce6ee" stroke-width="1.5"/>
+<rect x="75" y="287" width="10" height="69" rx="3" fill="#7654c9" stroke="#7654c9" stroke-width="1.5"/>
+<text x="103" y="316" class="h">位置敏感 Position</text>
+<text x="520" y="316" class="body">候选固定：反转/旋转/随机排列，与重复测量配对</text>
+<rect x="75" y="367" width="1050" height="69" rx="16" fill="#fff" stroke="#dce6ee" stroke-width="1.5"/>
+<rect x="75" y="367" width="10" height="69" rx="3" fill="#d28b24" stroke="#d28b24" stroke-width="1.5"/>
+<text x="103" y="396" class="h">选择 / 曝光</text>
+<text x="520" y="396" class="body">需要随机对照或可信 logging policy / propensity</text>
+<text x="1150" y="503" class="tiny" text-anchor="end">CSURFING  /  RSI DEBIAS</text>
+</svg>

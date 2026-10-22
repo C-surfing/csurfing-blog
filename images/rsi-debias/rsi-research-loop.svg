@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 620" role="img" aria-label="RSI Debias · 科研循环总架构">
+<rect width="1200" height="100%" fill="#f4f8fc"/>
+<style>text{font-family:"Microsoft YaHei","Noto Sans CJK SC","PingFang SC",sans-serif}.title{font-size:30px;font-weight:750;fill:#11243a}.sub{font-size:15px;fill:#527087}.h{font-size:21px;font-weight:700;fill:#11243a}.body{font-size:16px;fill:#394e62}.tiny{font-size:13px;fill:#64788c}</style>
+<text x="48" y="53" class="title">RSI Debias · 科研循环总架构</text>
+<text x="48" y="82" class="sub">LLM 不直接宣布成功：独立实验与评价拥有否决权</text>
+<rect x="30" y="134" width="266" height="135" rx="16" fill="#ffffff" stroke="#dce6ee" stroke-width="1.5"/>
+<rect x="30" y="134" width="7" height="135" rx="3" fill="#2563eb" stroke="#2563eb" stroke-width="1.5"/>
+<text x="52" y="169" class="h">Task Registry</text>
+<text x="52" y="204" class="body">偏差任务 / 数据</text>
+<text x="52" y="232" class="body">评价契约</text>
+<path d="M297 200 L327 200" stroke="#8aa4bd" stroke-width="3" fill="none" stroke-dasharray=""/>
+<path d="M317.5 205.5 L327 200 L317.5 194.5" stroke="#8aa4bd" stroke-width="3" fill="none"/>
+<rect x="329" y="134" width="266" height="135" rx="16" fill="#ffffff" stroke="#dce6ee" stroke-width="1.5"/>
+<rect x="329" y="134" width="7" height="135" rx="3" fill="#0f9eac" stroke="#0f9eac" stroke-width="1.5"/>
+<text x="351" y="169" class="h">Diagnosis</text>
+<text x="351" y="204" class="body">证据→假设</text>
+<text x="351" y="232" class="body">竞争解释</text>
+<path d="M596 200 L626 200" stroke="#8aa4bd" stroke-width="3" fill="none" stroke-dasharray=""/>
+<path d="M616.5 205.5 L626 200 L616.5 194.5" stroke="#8aa4bd" stroke-width="3" fill="none"/>
+<rect x="628" y="134" width="266" height="135" rx="16" fill="#ffffff" stroke="#dce6ee" stroke-width="1.5"/>
+<rect x="628" y="134" width="7" height="135" rx="3" fill="#7654c9" stroke="#7654c9" stroke-width="1.5"/>
+<text x="650" y="169" class="h">Designer</text>
+<text x="650" y="204" class="body">最小干预</text>
+<text x="650" y="232" class="body">反证条件</text>
+<path d="M895 200 L925 200" stroke="#8aa4bd" stroke-width="3" fill="none" stroke-dasharray=""/>
+<path d="M915.5 205.5 L925 200 L915.5 194.5" stroke="#8aa4bd" stroke-width="3" fill="none"/>
+<rect x="927" y="134" width="266" height="135" rx="16" fill="#ffffff" stroke="#dce6ee" stroke-width="1.5"/>
+<rect x="927" y="134" width="7" height="135" rx="3" fill="#d28b24" stroke="#d28b24" stroke-width="1.5"/>
+<text x="949" y="169" class="h">Critic</text>
+<text x="949" y="204" class="body">设计质疑</text>
+<text x="949" y="232" class="body">识别条件</text>
+<rect x="100" y="348" width="318" height="135" rx="16" fill="#ffffff" stroke="#dce6ee" stroke-width="1.5"/>
+<rect x="100" y="348" width="7" height="135" rx="3" fill="#dd605d" stroke="#dd605d" stroke-width="1.5"/>
+<text x="122" y="383" class="h">Executor</text>
+<text x="122" y="418" class="body">相同预算 / 固定 seed</text>
+<text x="122" y="446" class="body">受控运行</text>
+<path d="M419 414 L494 414" stroke="#8aa4bd" stroke-width="3" fill="none" stroke-dasharray=""/>
+<path d="M484.5 419.5 L494 414 L484.5 408.5" stroke="#8aa4bd" stroke-width="3" fill="none"/>
+<rect x="495" y="348" width="318" height="135" rx="16" fill="#ffffff" stroke="#dce6ee" stroke-width="1.5"/>
+<rect x="495" y="348" width="7" height="135" rx="3" fill="#239879" stroke="#239879" stroke-width="1.5"/>
+<text x="517" y="383" class="h">Evaluator</text>
+<text x="517" y="418" class="body">独立 Bias + Utility</text>
+<text x="517" y="446" class="body">可复现有效性</text>
+<path d="M814 414 L889 414" stroke="#8aa4bd" stroke-width="3" fill="none" stroke-dasharray=""/>
+<path d="M879.5 419.5 L889 414 L879.5 408.5" stroke="#8aa4bd" stroke-width="3" fill="none"/>
+<rect x="890" y="348" width="318" height="135" rx="16" fill="#ffffff" stroke="#dce6ee" stroke-width="1.5"/>
+<rect x="890" y="348" width="7" height="135" rx="3" fill="#2563eb" stroke="#2563eb" stroke-width="1.5"/>
+<text x="912" y="383" class="h">Reflection</text>
+<text x="912" y="418" class="body">失败原因 / 成本</text>
+<text x="912" y="446" class="body">研究证据记录</text>
+<path d="M1087 270 L1087 330" stroke="#dd605d" stroke-width="3" fill="none" stroke-dasharray=""/>
+<path d="M1081.5 320.5 L1087 330 L1092.5 320.5" stroke="#dd605d" stroke-width="3" fill="none"/>
+<path d="M1087 330 L247 330" stroke="#dd605d" stroke-width="2" fill="none" stroke-dasharray=""/>
+<path d="M247 330 L247 345" stroke="#dd605d" stroke-width="3" fill="none" stroke-dasharray=""/>
+<path d="M241.5 335.5 L247 345 L252.5 335.5" stroke="#dd605d" stroke-width="3" fill="none"/>
+<path d="M1050 484 L1050 542" stroke="#2563eb" stroke-width="2" fill="none" stroke-dasharray=""/>
+<path d="M1050 542 L162 542" stroke="#2563eb" stroke-width="2" fill="none" stroke-dasharray=""/>
+<path d="M162 542 L162 276" stroke="#2563eb" stroke-width="3" fill="none" stroke-dasharray=""/>
+<path d="M167.5 285.5 L162 276 L156.5 285.5" stroke="#2563eb" stroke-width="3" fill="none"/>
+<text x="602" y="578" class="sub" text-anchor="middle">Experiment Evidence → Next Hypothesis  |  无效实验也进入记忆</text>
+<text x="1150" y="603" class="tiny" text-anchor="end">CSURFING  /  RSI DEBIAS</text>
+</svg>

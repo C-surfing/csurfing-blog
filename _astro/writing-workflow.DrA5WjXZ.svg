@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 470" role="img" aria-label="How do I write a Blog Post?">
+<rect width="1200" height="100%" fill="#f4f8fc"/>
+<style>text{font-family:"Microsoft YaHei","Noto Sans CJK SC","PingFang SC",sans-serif}.title{font-size:30px;font-weight:750;fill:#11243a}.sub{font-size:15px;fill:#527087}.h{font-size:21px;font-weight:700;fill:#11243a}.body{font-size:16px;fill:#394e62}.tiny{font-size:13px;fill:#64788c}</style>
+<text x="48" y="53" class="title">How do I write a Blog Post?</text>
+<text x="48" y="82" class="sub">不是逐篇总结，而是按逻辑重组研究</text>
+<rect x="32" y="142" width="205" height="135" rx="16" fill="#ffffff" stroke="#dce6ee" stroke-width="1.5"/>
+<rect x="32" y="142" width="7" height="135" rx="3" fill="#2563eb" stroke="#2563eb" stroke-width="1.5"/>
+<text x="54" y="177" class="h">Reading Papers</text>
+<text x="54" y="212" class="body">笔记 / 疑问</text>
+<path d="M239 204 L267 204" stroke="#8aa4bd" stroke-width="3" fill="none" stroke-dasharray=""/>
+<path d="M257.5 209.5 L267 204 L257.5 198.5" stroke="#8aa4bd" stroke-width="3" fill="none"/>
+<rect x="270" y="142" width="205" height="135" rx="16" fill="#ffffff" stroke="#dce6ee" stroke-width="1.5"/>
+<rect x="270" y="142" width="7" height="135" rx="3" fill="#0f9eac" stroke="#0f9eac" stroke-width="1.5"/>
+<text x="292" y="177" class="h">Choose a Topic</text>
+<text x="292" y="212" class="body">一组相关工作</text>
+<path d="M477 204 L505 204" stroke="#8aa4bd" stroke-width="3" fill="none" stroke-dasharray=""/>
+<path d="M495.5 209.5 L505 204 L495.5 198.5" stroke="#8aa4bd" stroke-width="3" fill="none"/>
+<rect x="508" y="142" width="205" height="135" rx="16" fill="#ffffff" stroke="#dce6ee" stroke-width="1.5"/>
+<rect x="508" y="142" width="7" height="135" rx="3" fill="#7654c9" stroke="#7654c9" stroke-width="1.5"/>
+<text x="530" y="177" class="h">Build Taxonomy</text>
+<text x="530" y="212" class="body">概念 / 边界</text>
+<path d="M715 204 L743 204" stroke="#8aa4bd" stroke-width="3" fill="none" stroke-dasharray=""/>
+<path d="M733.5 209.5 L743 204 L733.5 198.5" stroke="#8aa4bd" stroke-width="3" fill="none"/>
+<rect x="746" y="142" width="205" height="135" rx="16" fill="#ffffff" stroke="#dce6ee" stroke-width="1.5"/>
+<rect x="746" y="142" width="7" height="135" rx="3" fill="#d28b24" stroke="#d28b24" stroke-width="1.5"/>
+<text x="768" y="177" class="h">Find Common Thread</text>
+<text x="768" y="212" class="body">数学 / 因果机制</text>
+<path d="M953 204 L981 204" stroke="#8aa4bd" stroke-width="3" fill="none" stroke-dasharray=""/>
+<path d="M971.5 209.5 L981 204 L971.5 198.5" stroke="#8aa4bd" stroke-width="3" fill="none"/>
+<rect x="984" y="142" width="205" height="135" rx="16" fill="#ffffff" stroke="#dce6ee" stroke-width="1.5"/>
+<rect x="984" y="142" width="7" height="135" rx="3" fill="#239879" stroke="#239879" stroke-width="1.5"/>
+<text x="1006" y="177" class="h">Write Narrative</text>
+<text x="1006" y="212" class="body">写给入门读者</text>
+<rect x="82" y="318" width="1035" height="92" rx="16" fill="#e7f1fa" stroke="#d3e4f4" stroke-width="1.5"/>
+<text x="109" y="352" class="h">选题 → 大量读论文 → 分类 → 找思想主线 → 重组故事 → 补齐空白 → 校对发布</text>
+<text x="109" y="386" class="sub">Question → Papers → Taxonomy → Mathematical Bridge → Narrative → Review → Publish</text>
+<text x="1150" y="453" class="tiny" text-anchor="end">CSURFING  /  RSI DEBIAS</text>
+</svg>

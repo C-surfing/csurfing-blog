@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 506" role="img" aria-label="从观测偏差到可信估计">
+<rect width="1200" height="100%" fill="#f4f8fc"/>
+<style>text{font-family:"Microsoft YaHei","Noto Sans CJK SC","PingFang SC",sans-serif}.title{font-size:30px;font-weight:750;fill:#11243a}.sub{font-size:15px;fill:#527087}.h{font-size:21px;font-weight:700;fill:#11243a}.body{font-size:16px;fill:#394e62}.tiny{font-size:13px;fill:#64788c}</style>
+<text x="48" y="53" class="title">从观测偏差到可信估计</text>
+<text x="48" y="82" class="sub">IPS / DR / AutoDebias 是相关但不同的技术路线</text>
+<rect x="37" y="130" width="341" height="265" rx="16" fill="#ffffff" stroke="#dce6ee" stroke-width="1.5"/>
+<rect x="37" y="130" width="7" height="265" rx="3" fill="#2563eb" stroke="#2563eb" stroke-width="1.5"/>
+<text x="59" y="165" class="h">IPS / 倾向加权</text>
+<text x="59" y="200" class="body">观测样本权重 ~ 1 / p</text>
+<text x="59" y="228" class="body">理想：补偿难以被观测的样本</text>
+<text x="59" y="256" class="body">风险：小 propensity → 大方差</text>
+<text x="59" y="284" class="body">要求：正概率 / 倾向可靠</text>
+<rect x="429" y="130" width="341" height="265" rx="16" fill="#ffffff" stroke="#dce6ee" stroke-width="1.5"/>
+<rect x="429" y="130" width="7" height="265" rx="3" fill="#0f9eac" stroke="#0f9eac" stroke-width="1.5"/>
+<text x="451" y="165" class="h">DR / 双重稳健</text>
+<text x="451" y="200" class="body">倾向估计 + 结果预测模型</text>
+<text x="451" y="228" class="body">利用模型估计补齐未见样本</text>
+<text x="451" y="256" class="body">一条模型误差可被另一条纠正</text>
+<text x="451" y="284" class="body">仍需假设与支持集</text>
+<rect x="821" y="130" width="341" height="265" rx="16" fill="#ffffff" stroke="#dce6ee" stroke-width="1.5"/>
+<rect x="821" y="130" width="7" height="265" rx="3" fill="#7654c9" stroke="#7654c9" stroke-width="1.5"/>
+<text x="843" y="165" class="h">AutoDebias / 学习修正</text>
+<text x="843" y="200" class="body">用少量随机观测作为参考</text>
+<text x="843" y="228" class="body">元学习调整权重与标签偏差</text>
+<text x="843" y="256" class="body">校正训练目标而非自动造科研假设</text>
+<text x="843" y="284" class="body">随机参考质量决定可信范围</text>
+<rect x="84" y="427" width="1030" height="49" rx="16" fill="#e8f0fc" stroke="#c7d9f1" stroke-width="1.5"/>
+<text x="599" y="457" class="h" text-anchor="middle">先问“什么能识别”，再问“怎样优化”</text>
+<text x="1150" y="489" class="tiny" text-anchor="end">CSURFING  /  RSI DEBIAS</text>
+</svg>

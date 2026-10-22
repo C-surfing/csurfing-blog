@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" role="img" aria-label="推荐日志不是完整的偏好真相">
+<rect width="1200" height="100%" fill="#f4f8fc"/>
+<style>text{font-family:"Microsoft YaHei","Noto Sans CJK SC","PingFang SC",sans-serif}.title{font-size:30px;font-weight:750;fill:#11243a}.sub{font-size:15px;fill:#527087}.h{font-size:21px;font-weight:700;fill:#11243a}.body{font-size:16px;fill:#394e62}.tiny{font-size:13px;fill:#64788c}</style>
+<text x="48" y="53" class="title">推荐日志不是完整的偏好真相</text>
+<text x="48" y="82" class="sub">偏差可在曝光、反馈观测和训练的多个节点产生，并通过反馈循环强化</text>
+<rect x="36" y="143" width="204" height="146" rx="16" fill="#ffffff" stroke="#dce6ee" stroke-width="1.5"/>
+<rect x="36" y="143" width="7" height="146" rx="3" fill="#2563eb" stroke="#2563eb" stroke-width="1.5"/>
+<text x="58" y="178" class="h">用户与物品</text>
+<text x="58" y="213" class="body">潜在兴趣 R</text>
+<text x="58" y="241" class="body">物品特征</text>
+<rect x="279" y="143" width="204" height="146" rx="16" fill="#ffffff" stroke="#dce6ee" stroke-width="1.5"/>
+<rect x="279" y="143" width="7" height="146" rx="3" fill="#2563eb" stroke="#2563eb" stroke-width="1.5"/>
+<text x="301" y="178" class="h">系统曝光 E</text>
+<text x="301" y="213" class="body">展示机会</text>
+<text x="301" y="241" class="body">位置分配</text>
+<rect x="522" y="143" width="204" height="146" rx="16" fill="#ffffff" stroke="#dce6ee" stroke-width="1.5"/>
+<rect x="522" y="143" width="7" height="146" rx="3" fill="#2563eb" stroke="#2563eb" stroke-width="1.5"/>
+<text x="544" y="178" class="h">行为观测 O</text>
+<text x="544" y="213" class="body">点击/评分/购买</text>
+<text x="544" y="241" class="body">MNAR 缺失</text>
+<rect x="765" y="143" width="204" height="146" rx="16" fill="#ffffff" stroke="#dce6ee" stroke-width="1.5"/>
+<rect x="765" y="143" width="7" height="146" rx="3" fill="#2563eb" stroke="#2563eb" stroke-width="1.5"/>
+<text x="787" y="178" class="h">学习模型</text>
+<text x="787" y="213" class="body">优化损失</text>
+<text x="787" y="241" class="body">更新排序</text>
+<path d="M244 212 L278 212" stroke="#8aa4bd" stroke-width="3" fill="none" stroke-dasharray=""/>
+<path d="M268.5 217.5 L278 212 L268.5 206.5" stroke="#8aa4bd" stroke-width="3" fill="none"/>
+<path d="M487 212 L521 212" stroke="#8aa4bd" stroke-width="3" fill="none" stroke-dasharray=""/>
+<path d="M511.5 217.5 L521 212 L511.5 206.5" stroke="#8aa4bd" stroke-width="3" fill="none"/>
+<path d="M730 212 L764 212" stroke="#8aa4bd" stroke-width="3" fill="none" stroke-dasharray=""/>
+<path d="M754.5 217.5 L764 212 L754.5 206.5" stroke="#8aa4bd" stroke-width="3" fill="none"/>
+<rect x="1000" y="143" width="166" height="146" rx="16" fill="#ffffff" stroke="#dce6ee" stroke-width="1.5"/>
+<rect x="1000" y="143" width="7" height="146" rx="3" fill="#dd605d" stroke="#dd605d" stroke-width="1.5"/>
+<text x="1022" y="178" class="h">推荐结果</text>
+<text x="1022" y="213" class="body">Top-K 列表</text>
+<text x="1022" y="241" class="body">再次曝光</text>
+<path d="M969 212 L999 212" stroke="#8aa4bd" stroke-width="3" fill="none" stroke-dasharray=""/>
+<path d="M989.5 217.5 L999 212 L989.5 206.5" stroke="#8aa4bd" stroke-width="3" fill="none"/>
+<path d="M1078 306 L1078 367" stroke="#dd605d" stroke-width="3" fill="none" stroke-dasharray=""/>
+<path d="M1072.5 357.5 L1078 367 L1083.5 357.5" stroke="#dd605d" stroke-width="3" fill="none"/>
+<path d="M1078 367 L147 367" stroke="#dd605d" stroke-width="3" fill="none" stroke-dasharray=""/>
+<path d="M147 367 L147 306" stroke="#dd605d" stroke-width="3" fill="none" stroke-dasharray=""/>
+<path d="M152.5 315.5 L147 306 L141.5 315.5" stroke="#dd605d" stroke-width="3" fill="none"/>
+<text x="565" y="352" class="h" text-anchor="middle">Feedback Loop / 动态放大</text>
+<rect x="126" y="414" width="950" height="60" rx="16" fill="#e7f0fb" stroke="#ccdeef" stroke-width="1.5"/>
+<text x="601" y="452" class="h" text-anchor="middle">观察到的点击 ≠ 用户若看到所有候选物品时的真实偏好</text>
+<text x="1150" y="503" class="tiny" text-anchor="end">CSURFING  /  RSI DEBIAS</text>
+</svg>

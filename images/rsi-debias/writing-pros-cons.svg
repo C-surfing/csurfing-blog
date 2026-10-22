@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 510" role="img" aria-label="Write a ML Blog · 为什么写？">
+<rect width="1200" height="100%" fill="#f4f8fc"/>
+<style>text{font-family:"Microsoft YaHei","Noto Sans CJK SC","PingFang SC",sans-serif}.title{font-size:30px;font-weight:750;fill:#11243a}.sub{font-size:15px;fill:#527087}.h{font-size:21px;font-weight:700;fill:#11243a}.body{font-size:16px;fill:#394e62}.tiny{font-size:13px;fill:#64788c}</style>
+<text x="48" y="53" class="title">Write a ML Blog · 为什么写？</text>
+<text x="48" y="82" class="sub">把写作当作一次真正的研究，而不只是记录论文</text>
+<rect x="42" y="118" width="547" height="330" rx="16" fill="#ffffff" stroke="#dce6ee" stroke-width="1.5"/>
+<rect x="42" y="118" width="7" height="330" rx="3" fill="#239879" stroke="#239879" stroke-width="1.5"/>
+<text x="64" y="153" class="h">PROS / 得到什么？</text>
+<text x="64" y="188" class="body">必须先真正理解，才能清楚地解释给别人</text>
+<text x="64" y="216" class="body">把分散 papers 连成一条可理解的思想线</text>
+<text x="64" y="244" class="body">推动自己持续追踪相关研究</text>
+<text x="64" y="272" class="body">锻炼推导、表达与证据组织</text>
+<text x="64" y="300" class="body">留下可复查、可更新的知识资产</text>
+<rect x="610" y="118" width="547" height="330" rx="16" fill="#ffffff" stroke="#dce6ee" stroke-width="1.5"/>
+<rect x="610" y="118" width="7" height="330" rx="3" fill="#dd605d" stroke="#dd605d" stroke-width="1.5"/>
+<text x="632" y="153" class="h">CONS / 必须付出什么？</text>
+<text x="632" y="188" class="body">一开始很痛苦：理解论文不能只看摘要</text>
+<text x="632" y="216" class="body">高质量文章需要仔细核对概念与来源</text>
+<text x="632" y="244" class="body">Time：读论文、整理 taxonomy</text>
+<text x="632" y="272" class="body">Time：画图、反复推导、修改</text>
+<text x="632" y="300" class="body">Time：技术校对与逐段验证</text>
+<text x="1150" y="493" class="tiny" text-anchor="end">CSURFING  /  RSI DEBIAS</text>
+</svg>

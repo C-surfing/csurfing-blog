@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" role="img" aria-label="从分数驱动扩展到失败原因驱动研究">
+<rect width="1200" height="100%" fill="#f4f8fc"/>
+<style>text{font-family:"Microsoft YaHei","Noto Sans CJK SC","PingFang SC",sans-serif}.title{font-size:30px;font-weight:750;fill:#11243a}.sub{font-size:15px;fill:#527087}.h{font-size:21px;font-weight:700;fill:#11243a}.body{font-size:16px;fill:#394e62}.tiny{font-size:13px;fill:#64788c}</style>
+<text x="48" y="53" class="title">从分数驱动扩展到失败原因驱动研究</text>
+<text x="48" y="82" class="sub">树搜索的目标不是“试更多”，而是更快找到可复现的有效发现</text>
+<rect x="440" y="126" width="320" height="75" rx="16" fill="#e5ecfa" stroke="#cbdaf0" stroke-width="1.5"/>
+<text x="600" y="160" class="h" text-anchor="middle">ROOT  / Baseline</text>
+<text x="600" y="183" class="tiny" text-anchor="middle">固定指标、数据与预算</text>
+<path d="M600 202 L315 267" stroke="#8aa4bd" stroke-width="3" fill="none" stroke-dasharray=""/>
+<path d="M323.1 259.5 L315 267 L325.5 270.2" stroke="#8aa4bd" stroke-width="3" fill="none"/>
+<path d="M600 202 L675 267" stroke="#8aa4bd" stroke-width="3" fill="none" stroke-dasharray=""/>
+<path d="M664.2 264.9 L675 267 L671.4 256.6" stroke="#8aa4bd" stroke-width="3" fill="none"/>
+<path d="M600 202 L1035 267" stroke="#8aa4bd" stroke-width="3" fill="none" stroke-dasharray=""/>
+<path d="M1024.8 271.0 L1035 267 L1026.4 260.2" stroke="#8aa4bd" stroke-width="3" fill="none"/>
+<rect x="135" y="270" width="270" height="137" rx="16" fill="#ffffff" stroke="#dce6ee" stroke-width="1.5"/>
+<rect x="135" y="270" width="7" height="137" rx="3" fill="#2563eb" stroke="#2563eb" stroke-width="1.5"/>
+<text x="157" y="305" class="h">H1 · Popularity</text>
+<text x="157" y="340" class="body">降低 ARP 但 NDCG 下降</text>
+<text x="157" y="368" class="body">下一步：检查效用权衡</text>
+<rect x="465" y="270" width="270" height="137" rx="16" fill="#ffffff" stroke="#dce6ee" stroke-width="1.5"/>
+<rect x="465" y="270" width="7" height="137" rx="3" fill="#7654c9" stroke="#7654c9" stroke-width="1.5"/>
+<text x="487" y="305" class="h">H2 · Position</text>
+<text x="487" y="340" class="body">候选顺序反转不稳定</text>
+<text x="487" y="368" class="body">下一步：做配对扰动</text>
+<rect x="795" y="270" width="270" height="137" rx="16" fill="#ffffff" stroke="#dce6ee" stroke-width="1.5"/>
+<rect x="795" y="270" width="7" height="137" rx="3" fill="#d28b24" stroke="#d28b24" stroke-width="1.5"/>
+<text x="817" y="305" class="h">H3 · Selection</text>
+<text x="817" y="340" class="body">缺少随机对照</text>
+<text x="817" y="368" class="body">下一步：转 Coat 参考集</text>
+<text x="600" y="470" class="sub" text-anchor="middle">每条边 = 可检验假设 + 实验成本 + 失败/支持证据；不是自动宣告创新</text>
+<text x="1150" y="503" class="tiny" text-anchor="end">CSURFING  /  RSI DEBIAS</text>
+</svg>
