@@ -1,4 +1,5 @@
 allowBuilds:
+  ascii.rest@https://codeload.github.com/bas3line/ascii/tar.gz/ba853e4bc950d3874259693f4b30d556637e5c92: true
   esbuild: true
   sharp: true
   ttf2woff2: true

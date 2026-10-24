@@ -33,19 +33,13 @@ const len = page.data.length;
                 <span class="h-2 w-2 rounded-full bg-(--primary)" aria-hidden="true"></span>
                 <span class="font-medium tracking-wide">Notes from the lab</span>
             </div>
-            <Ascii
-                piece="typewriter"
-                class="ascii-home-typewriter"
-                label="Current interests: AI agents, recommender systems, and research notes"
-                options={{
-                    prefix: "> ",
-                    phrases: [
-                        "building autonomous agents",
-                        "studying recommender systems",
-                        "sharing research notes",
-                    ],
-                }}
-            />
+            <div class="saturn-scene">
+                <Ascii
+                    piece="saturn-rise"
+                    class="ascii-home-saturn"
+                    label="A glowing Saturn rising above the icy horizon of a moon"
+                />
+            </div>
         </section>
     )}
 	{showCategoryBar && <CategoryBar />}
@@ -58,16 +52,16 @@ const len = page.data.length;
 </MainGridLayout>
 
 <style is:global>
-    .ascii-home-typewriter {
-        display: block;
-        max-width: 100%;
+    .saturn-scene {
         overflow: hidden;
-        font-size: clamp(9px, 1.5vw, 14px);
-        color: var(--primary);
+        border-radius: var(--radius-large);
+        background: #04050a;
     }
 
-    .ascii-home-typewriter pre {
-        margin: 0;
-        line-height: 1.2;
+    .ascii-home-saturn,
+    .ascii-home-saturn canvas {
+        display: block;
+        width: 100%;
+        max-width: 100%;
     }
 </style>
