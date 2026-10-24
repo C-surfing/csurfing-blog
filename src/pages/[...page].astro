@@ -1,5 +1,6 @@
 ---
 import Pagination from "@components/control/Pagination.astro";
+import Ascii from "ascii.rest/astro";
 import CategoryBar from "@components/features/posts/CategoryBar.astro";
 import PostPage from "@components/features/posts/PostPage.astro";
 import MainGridLayout from "@layouts/MainGridLayout.astro";
@@ -26,6 +27,27 @@ const len = page.data.length;
 ---
 
 <MainGridLayout>
+    {page.currentPage === 1 && (
+        <section class="card-base rounded-(--radius-large) px-5 py-4 md:px-7 md:py-5 mb-4" aria-label="Research notes introduction">
+            <div class="flex items-center gap-2 mb-3 text-sm text-75">
+                <span class="h-2 w-2 rounded-full bg-(--primary)" aria-hidden="true"></span>
+                <span class="font-medium tracking-wide">Notes from the lab</span>
+            </div>
+            <Ascii
+                piece="typewriter"
+                class="ascii-home-typewriter"
+                label="Current interests: AI agents, recommender systems, and research notes"
+                options={{
+                    prefix: "> ",
+                    phrases: [
+                        "building autonomous agents",
+                        "studying recommender systems",
+                        "sharing research notes",
+                    ],
+                }}
+            />
+        </section>
+    )}
 	{showCategoryBar && <CategoryBar />}
 	<PostPage page={page} />
 	<Pagination
@@ -34,3 +56,18 @@ const len = page.data.length;
 		style={`animation-delay: calc(var(--content-delay) + ${len * 50}ms)`}
 	/>
 </MainGridLayout>
+
+<style is:global>
+    .ascii-home-typewriter {
+        display: block;
+        max-width: 100%;
+        overflow: hidden;
+        font-size: clamp(9px, 1.5vw, 14px);
+        color: var(--primary);
+    }
+
+    .ascii-home-typewriter pre {
+        margin: 0;
+        line-height: 1.2;
+    }
+</style>
